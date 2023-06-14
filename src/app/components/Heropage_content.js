@@ -8,7 +8,7 @@ const Heropage_content = () => {
 
         <div className={style.btn_}>
             <button>i need a website <MdArrowCircleRight/> </button>
-            <button>i'm looking to hire <MdArrowCircleRight/></button>
+            <button>i am looking to hire <MdArrowCircleRight/></button>
         </div>
     </div>
   )
