@@ -1,4 +1,3 @@
-"use client";
 // import 'bootstrap/dist/js/bootstrap';
 import "./globals.css";
 import { Inter } from "next/font/google";
@@ -21,3 +20,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
