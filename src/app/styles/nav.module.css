@@ -1,0 +1,26 @@
+.list_ {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+.link_ {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  position: relative;
+}
+.link_::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: 2px solid #fff;
+  transition-duration: 400ms;
+}
+.link_:hover::before {
+  width: 70%;
+}

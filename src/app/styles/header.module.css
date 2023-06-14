@@ -1,0 +1,11 @@
+.header_{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(139, 139, 139, 0.479);
+    color: #fff;
+    padding: 30px 50px;
+}
+.logo{
+    font-size: 1.4rem;
+}
